@@ -15,7 +15,8 @@ echo ''...................................######.....##....##.....##.##.....##..
 echo 
 echo 
 
-date 
+now=$(date)
+echo "Current time: $now"
 
 echo 
 echo 
@@ -55,5 +56,6 @@ echo "Step 7: clean up"
 sudo apt-get -y autoclean
 
 
-                                                                    
+now=$(date)
+echo "Current time: $now"                                                       
                                                                     
