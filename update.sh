@@ -40,13 +40,16 @@ echo
 echo "Step 7: Clean up"
 sudo apt-get -y autoclean
 
-now=$(date)
-echo "Current time: $now"                                                       
-
+echo
+                                                     
 echo "Step 8: Updating glances"
 pip install --upgrade glances
 
-echo "Step 9: Rebooting if needed..."                                                                 
+echo
+
+echo "Step 9: Rebooting if needed..." 
+now=$(date)
+echo "Current time: $now"                                                                  
 needrestart -r i
 
 echo '==============================================================================================='
