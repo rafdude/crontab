@@ -42,8 +42,11 @@ sudo apt-get -y autoclean
 
 now=$(date)
 echo "Current time: $now"                                                       
-   
-echo "Step 8: Rebooting if needed..."                                                                 
+
+echo "Step 8: Updating glances"
+pip install --upgrade glances
+
+echo "Step 9: Rebooting if needed..."                                                                 
 needrestart -r i
 
 echo '==============================================================================================='
