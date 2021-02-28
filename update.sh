@@ -51,7 +51,7 @@ echo
 echo "Step 9: Clearning logs..."
 journalctl --vacuum-time=7d
 
-echo "Step 9: Rebooting if needed..." 
+echo "Step 99: Rebooting if needed..." 
 now=$(date)
 echo "Current time: $now"                                                                  
 needrestart -r i
