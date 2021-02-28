@@ -7,48 +7,48 @@ figlet -f digital Started $(date)
 echo '==============================================================================================='
 echo 
 
-echo "Step 1: Pre-configuring packages"
+echo "Step 1: Pre-configuring packages..."
 sudo dpkg --configure -a
 
 echo
 
-echo "Step 2: Fix and attempt to correct a system with broken dependencies"
+echo "Step 2: Fix and attempt to correct a system with broken dependencies..."
 sudo apt-get install -f
 
 echo
 
-echo "Step 3: Update apt cache"
+echo "Step 3: Update apt cache..."
 sudo apt-get update
 
 echo
 
-echo "Step 4: Upgrade packages"
+echo "Step 4: Upgrade packages..."
 sudo apt-get -y upgrade
 
 echo
 
-echo "Step 5: Distribution upgrade"
+echo "Step 5: Distribution upgrade..."
 sudo apt-get -y dist-upgrade
 
 echo
 
-echo "Step 6: Remove unused packages"
+echo "Step 6: Remove unused packages..."
 sudo apt-get -y --purge autoremove
 
 echo
 
-echo "Step 7: Clean up"
+echo "Step 7: Clean up..."
 sudo apt-get -y autoclean
 
 echo
                                                      
-echo "Step 8: Updating glances"
+echo "Step 8: Updating glances..."
 pip install --upgrade glances
 
 echo
 
 
-echo "Step 9: Clearning logs..."
+echo "Step 9: Clearing logs..."
 journalctl --vacuum-time=7d
 
 echo "Step 99: Rebooting if needed..." 
