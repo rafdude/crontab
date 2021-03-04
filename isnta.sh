@@ -1,4 +1,5 @@
 #!/bin/bash
+## install for banners
 
 PATH=/home/torrent/.local/bin:/home/torrent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
