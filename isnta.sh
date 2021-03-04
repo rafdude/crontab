@@ -1,5 +1,6 @@
-PATH=/home/torrent/.local/bin:/home/torrent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+#!/bin/bash
 
+PATH=/home/torrent/.local/bin:/home/torrent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 echo '==============================================================================================='
 figlet -f digital Started $(date)
