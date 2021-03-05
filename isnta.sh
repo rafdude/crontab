@@ -24,7 +24,7 @@ echo
 pip3 install instaloader
 
 
-/home/torrent/.local/bin/instaloader -l robert.stack.50951 -p tL382xZoPoj8sB --no-metadata-json -C -F --dirname-pattern=/home/torrent/insta/files/{profile}  profile julies_lashes 
+/home/torrent/.local/bin/instaloader -l robert.stack.50951 -p tL382xZoPoj8sB --no-metadata-json -C -F --dirname-pattern=/home/torrent/insta/files/{profile}  profile julies_lashes bella.poarch
 
 
 echo '==============================================================================================='
